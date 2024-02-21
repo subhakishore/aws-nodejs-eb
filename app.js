@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: ' Elastic Beanstalk'
+    title: ' Elastic Beanstalk - PAAS Service in AWS'
     })
     res.status(200).end();
 })
